@@ -41,11 +41,11 @@ SES Service – Negligible
        
        Add a Pandas Layer in the function.
        
-       And use Environtment Variable for the Bucket Name ( Key - BUCKET , Value - "Your Bucket Name" )
+       And use Environtment Variable for the Bucket Name **( Key - BUCKET , Value - "Your Bucket Name" )**
        
---- Verify the the sender and recipient email addresses in the SES service.
+--- Verify the the sender and recipient email addresses in the **SES service**.
        
 --- Create another Lambda Function which will be triggered by every upload in the S3 bucket.
        
-       Function will send an email to the recipients using SES email..
+       Everytime the function is triggered it will send an email to the recipients, attached with the CSV file using SES email..
 
