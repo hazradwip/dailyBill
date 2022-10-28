@@ -41,7 +41,7 @@ SES Service – Negligible
        
        Add a Pandas Layer in the function.
        
-       And use Environtment Variable for the Bucket Name **( Key - BUCKET , Value - "Your Bucket Name" )**
+       And use Environtment Variable for the Bucket Name ( Key - BUCKET , Value - "Your Bucket Name" )
        
 --- Verify the the sender and recipient email addresses in the **SES service**.
        
