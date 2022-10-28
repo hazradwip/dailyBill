@@ -46,6 +46,25 @@ SES Service – Negligible
 --- Verify the the sender and recipient email addresses in the **SES service**.
        
 --- Create another Lambda Function which will be triggered by every upload in the S3 bucket.
+
+--- Use a trigger for the fcntion from the S3 Bucket.
        
        Everytime the function is triggered it will send an email to the recipients, attached with the CSV file using SES email..
+       
+       
+## Sample format for the CSV file
+
+
+
+![Screenshot from 2022-10-28 12-03-55](https://user-images.githubusercontent.com/55629302/198563209-31e8819f-1566-4fd2-891f-58b89307adfa.png)
+
+
+
+
+
+
+
+
+
+
 
