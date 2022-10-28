@@ -60,6 +60,11 @@ SES Service – Negligible
 
 
 
+## Mail Screenshot
+
+
+
+![Screenshot from 2022-10-28 15-44-09](https://user-images.githubusercontent.com/55629302/198563634-37fa9b1e-ceea-45ec-ba45-d9fa1830829a.png)
 
 
 
