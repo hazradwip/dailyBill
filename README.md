@@ -33,3 +33,8 @@ SES Service – Negligible
 
 # **Steps**
 
+--- Create a **EventBridge** Cron job to trigger a Lambda Function daily as your specified time.
+
+--- Create the **Lambda Funciton** to get the daily bill using Cost Explorer API
+      -- Use the python code from
+
