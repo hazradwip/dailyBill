@@ -1,5 +1,10 @@
 # **Daily AWS Cost And Usage Bill**
 
+## Purpose
+
+It is used to get the total daily bill which are grouped by services and it is send as attachment in the Email..
+
+## Procedure
 
 AWS EventBridge is used to trigger a Lambda funtion which will fetch the daily cost usage using the Cost
 Explorer API and then it will convert it into CSV file and then upload it into the S3 Bucket. The Bucket will
