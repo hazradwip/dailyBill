@@ -35,11 +35,17 @@ SES Service – Negligible
 
 --- Create a **EventBridge** Cron job to trigger a Lambda Function daily as your specified time.
 
---- Create the **Lambda Funciton** to get the daily bill using Cost Explorer API
+--- Create the **Lambda Funciton** to get the daily bill using Cost Explorer API and upload it into the S3 Bucket.
 
        Use the python code from LambdaFunctions/getDailyBill.py
        
-       Add a Pandas Layer in the function
+       Add a Pandas Layer in the function.
        
        And use Environtment Variable for the Bucket Name ( Key - BUCKET , Value - "Your Bucket Name" )
+       
+--- Verify the the sender and recipient email addresses in the SES service.
+       
+--- Create another Lambda Function which will be triggered by every upload in the S3 bucket.
+       
+       Function will send an email to the recipients using SES email..
 
