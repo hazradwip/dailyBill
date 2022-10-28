@@ -12,17 +12,17 @@ def lambda_handler(event, context):
 
 	# Replace sender@example.com with your "From" address.
 	# This address must be verified with Amazon SES.
-	SENDER = "hazradwip@gmail.com"
+	SENDER = "sender email address"
 
 	# Replace recipient@example.com with a "To" address. If your account
 	# is still in the sandbox, this address must be verified.
-	RECIPIENT = "hazra.dwip@tftus.com"
+	RECIPIENT = "recipient email address"
 
 	# Specify a configuration set. If you do not want to use a configuration
 	# set, comment the following variable, and the
 	# ConfigurationSetName=CONFIGURATION_SET argument below.
 	# CONFIGURATION_SET = "ConfigSet"
-	AWS_REGION = "ap-south-1"
+	AWS_REGION = "Your AWS region"
 	SUBJECT = "AWS bill for daily usage"
 
 	# This is the start of the process to pull the files we need from the S3 bucket into the email.
