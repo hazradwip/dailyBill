@@ -37,5 +37,5 @@ SES Service – Negligible
 
 --- Create the **Lambda Funciton** to get the daily bill using Cost Explorer API
 
-      -- Use the python code from [getDailyBill](https://github.com/hazradwip/dailyBill/blob/main/LambdaFunctions/getDailyBill.py)
+      -- Use the python code from [getDailyBill](https://github.com/hazradwip/dailyBill/tree/main/LambdaFunctions)
 
