@@ -1,0 +1,9 @@
+,Services,Amount,Currency
+0,['AWS Cost Explorer'],1.72,USD
+1,['AWS Lambda'],0.0001148014,USD
+2,['Amazon Simple Email Service'],0.0003086463,USD
+3,['Amazon Simple Notification Service'],0,USD
+4,['Amazon Simple Queue Service'],0,USD
+5,['Amazon Simple Storage Service'],0.0000018482,USD
+6,['AmazonCloudWatch'],0,USD
+7,['Tax'],0.31,USD
