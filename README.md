@@ -9,8 +9,11 @@ the recipients..
 ### Cost of the Architecture
 
 Cost Explorer - 0.01$ per API Call
+
 S3 Bucket – Negligible
+
 Lambda Function – Negligible
+
 SES Service – Negligible
 
 
