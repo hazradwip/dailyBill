@@ -17,6 +17,9 @@ Lambda Function – Negligible
 SES Service – Negligible
 
 
+### Architecture
+
+
 
 
 
